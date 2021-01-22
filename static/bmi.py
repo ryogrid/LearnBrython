@@ -3,7 +3,7 @@
 
 from browser import document
 
-def calc_bmi():
+def calc_bmi(e):
     weight = float(document["weight"].value)
     height = float(document["height"].value)
     
